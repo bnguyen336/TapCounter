@@ -11,18 +11,15 @@
     android:background="@drawable/paper_bg"
     tools:context="edu.orangecoastcollege.cs273.bnguyen336.tapcounter.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/counter_text"
         android:id="@+id/counterText"
         android:textAlignment="center"
-        android:textSize="42dp"
+        android:textSize="60dp"
         android:textColor="#080808"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
 
@@ -36,9 +33,8 @@
         android:height="80dp"
         android:textAlignment="center"
         android:textSize="36dp"
-        android:singleLine="false"
-        android:layout_marginBottom="59dp"
+        android:layout_marginBottom="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
-    </RelativeLayout>
+
 </RelativeLayout>
